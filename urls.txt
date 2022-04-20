@@ -1,0 +1,6 @@
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+https://www.w3schools.com/js/js_function_definition.asp
+https://www.w3schools.com/js/js_function_closures.asp
+https://www.javascripttutorial.net/javascript-functions-are-first-class-citizens/
+https://dmitripavlutin.com/6-ways-to-declare-javascript-functions/
+https://www.freecodecamp.org/news/a-quick-intro-to-higher-order-functions-in-javascript-1a014f89c6b/ (? & =>)
