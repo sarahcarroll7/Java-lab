@@ -1,0 +1,32 @@
+package matrixoperations;
+
+import simulations.NumericSims;
+
+public class MatrixArithmetic {
+	public static void main(String[] args) {
+		double[] arr1; 
+		double[] arr2; 
+		
+		arr1 = NumericSims.simulateVector(5);
+		arr2 = NumericSims.simulateVector(5);
+		
+		System.out.println("The first matrix: ");
+		for (int i = 0; i<5; i++) {System.out.println(arr1[i]);
+			
+		}
+		
+		System.out.println("The second matrix: ");
+		for (int i = 0; i < 5; i++) {
+			System.out.println(arr2[i]);
+			
+		}
+		
+		System.out.println("Addition: ");
+		
+		for (int i = 0; i < 5; i++) {
+			System.out.println(arr1[i]+arr2[i]);
+		}
+	}
+
+	
+}

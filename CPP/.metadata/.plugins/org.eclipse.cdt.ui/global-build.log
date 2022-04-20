@@ -1,0 +1,140 @@
+16:22:06 **** Rebuild of configuration Debug for project datatypes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:1:2: error: invalid preprocessing directive #incluse; did you mean #include?
+ #incluse <iostream>
+  ^~~~~~~
+  include
+..\main.cpp: In function 'int main()':
+..\main.cpp:5:2: error: 'cout' was not declared in this scope
+  cout << "Hello world!" << endl;
+  ^~~~
+..\main.cpp:5:2: note: 'std::cout' is defined in header '<iostream>'; did you forget to '#include <iostream>'?
+..\main.cpp:1:1:
++#include <iostream>
+ #incluse <iostream>
+..\main.cpp:5:2:
+  cout << "Hello world!" << endl;
+  ^~~~
+..\main.cpp:5:28: error: 'endl' was not declared in this scope
+  cout << "Hello world!" << endl;
+                            ^~~~
+..\main.cpp:5:28: note: 'std::endl' is defined in header '<ostream>'; did you forget to '#include <ostream>'?
+..\main.cpp:1:1:
++#include <ostream>
+ #incluse <iostream>
+..\main.cpp:5:28:
+  cout << "Hello world!" << endl;
+                            ^~~~
+16:22:49 **** Incremental Build of configuration Debug for project datatypes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:1:2: error: invalid preprocessing directive #incluse; did you mean #include?
+ #incluse <iostream>
+  ^~~~~~~
+  include
+..\main.cpp:4:11: error: '::main' must return 'int'
+ void main(){
+           ^
+..\main.cpp: In function 'int main()':
+..\main.cpp:5:2: error: 'cout' was not declared in this scope
+  cout << "Hello world!";
+  ^~~~
+..\main.cpp:5:2: note: 'std::cout' is defined in header '<iostream>'; did you forget to '#include <iostream>'?
+..\main.cpp:1:1:
++#include <iostream>
+ #incluse <iostream>
+..\main.cpp:5:2:
+  cout << "Hello world!";
+  ^~~~
+16:24:01 **** Incremental Build of configuration Debug for project datatypes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:1:2: error: invalid preprocessing directive #incluse; did you mean #include?
+ #incluse <iostream>
+  ^~~~~~~
+  include
+..\main.cpp:4:11: error: '::main' must return 'int'
+ void main(){
+           ^
+..\main.cpp: In function 'int main()':
+..\main.cpp:5:2: error: 'cout' was not declared in this scope
+  cout << "Hello world!";
+  ^~~~
+..\main.cpp:5:2: note: 'std::cout' is defined in header '<iostream>'; did you forget to '#include <iostream>'?
+..\main.cpp:1:1:
++#include <iostream>
+ #incluse <iostream>
+..\main.cpp:5:2:
+  cout << "Hello world!";
+  ^~~~
+16:24:12 **** Incremental Build of configuration Debug for project datatypes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:4:11: error: '::main' must return 'int'
+ void main(){
+           ^
+16:24:56 **** Incremental Build of configuration Debug for project datatypes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:4:11: error: '::main' must return 'int'
+ void main(){
+           ^
+16:25:37 **** Incremental Build of configuration Debug for project datatypes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:1:10: fatal error: iostream.h: No such file or directory
+ #include <iostream.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+16:25:53 **** Incremental Build of configuration Debug for project datatypes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:3:11: error: '::main' must return 'int'
+ void main() {
+           ^
+..\main.cpp: In function 'int main()':
+..\main.cpp:4:4: error: 'clrscr' was not declared in this scope
+    clrscr();
+    ^~~~~~
+..\main.cpp:4:4: note: suggested alternative: '_lrotr'
+    clrscr();
+    ^~~~~~
+    _lrotr
+..\main.cpp:5:4: error: 'cout' was not declared in this scope
+    cout << "Welcome to C++ Programming.";
+    ^~~~
+..\main.cpp:5:4: note: suggested alternative:
+In file included from ..\main.cpp:1:
+C:/texmf/Strawberry/c/lib/gcc/x86_64-w64-mingw32/8.3.0/include/c++/iostream:61:18: note:   'std::cout'
+   extern ostream cout;  /// Linked to standard output
+                  ^~~~
+16:31:57 **** Incremental Build of configuration Debug for project datatypes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o datatyeps.o "..\\datatyeps.cpp" 
+..\datatyeps.cpp:11:11: error: '::main' must return 'int'
+ void main(){
+           ^
+16:32:55 **** Incremental Build of configuration Debug for project datatypes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o datatyeps.o "..\\datatyeps.cpp" 
+g++ -o datatypes.exe datatyeps.o 
+Info: Nothing to build for datatypes
+16:33:54 **** Incremental Build of configuration Debug for project datatypes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o datatyeps.o "..\\datatyeps.cpp" 
+..\datatyeps.cpp: In function 'int main()':
+..\datatyeps.cpp:13:38: error: expected ';' before 'return'
+  cout << "This is first C++ program."
+                                      ^
+                                      ;
+  return 0;
+  ~~~~~~                               
+16:34:05 **** Incremental Build of configuration Debug for project datatypes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o datatyeps.o "..\\datatyeps.cpp" 
+g++ -o datatypes.exe datatyeps.o 
+Info: Nothing to build for datatypes
+Info: Nothing to build for datatypes
+Info: Nothing to build for datatypes
+Info: Nothing to build for datatypes

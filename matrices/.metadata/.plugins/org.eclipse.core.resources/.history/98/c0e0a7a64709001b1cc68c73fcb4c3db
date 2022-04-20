@@ -1,0 +1,11 @@
+package simulations;
+
+public class NumericSims {
+	public static double[] simulateVector(int n) {
+		//double[] arr = new double[n];
+		
+		for (int i = 0; i < n; i++) {
+			double arr[i] = rand.nextInt();
+		}
+	}
+}

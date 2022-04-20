@@ -1,0 +1,3 @@
+module marketing {
+	exports marketing; 
+}
